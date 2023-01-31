@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.styles.css">
+</head>
+<body>
+    <main>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+
+        <h1>Hola bootstrap</h1>
+        <div class="container"> <!--toma el 80% del ancho del pantalla-->
+            <div class="row"> 
+                <!--desde 576px toma las 12 columnas-->
+                <!--desde 768px toma las 8 columnas-->
+                 <!--pt (en em) padding top-->
+                 <!--my margin 1-->
+                <div class="col-sm-12 col-md-8  
+                    my-1
+                    pt-2
+                    fondo-verde"> 
+                    verde
+                </div>
+                <div class="col-sm-12 fondo-rojo">
+                    rojo
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"> <!--toma todo el ancho del pantalla-->
+        <div class="row"> 
+            <!--desde 576px toma las 12 columnas-->
+            <!--desde 768px toma las 8 columnas-->
+            <div class="col-sm-12 col-md-8 col-lg-6 fondo-verde"> 
+                verde
+            </div> 
+            <div class="col-sm-12 col-md-4 col-lg-6 fondo-rojo">
+                rojo
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

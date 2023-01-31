@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+ul {
+    list-style: "";
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.top_menu_container {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top_menu_section {
+    margin: 1px;
+    display: flex;
+}
+
+.top_section_links ul li {
+    display: flex;
+    padding: 4px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.top_section_links ul li a {
+    font-size: 12px;
+    color: #787878;
+}
+
+.top_section_links ul li a:hover {
+    color: black;
+}
+
+
+
+.top_section_li {
+    display: flex;
+}
+
+.top_menu_section li {
+    padding-top: 8px;
+    margin-left: 2px;
+}
+
+.top_menu_section li a {
+    display: inline-block;
+    
+    width: 150px;
+    height: 22px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.rojo {
+    background-color: #bf1e2e;
+   
+}
+
+.gris {
+    background-color: #6d6e72;
+}
+
+.top_menu_section li a:hover {
+    background-color: red;
+}
+
+.log_menu_form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8px;
+}
+
+
+.log_menu_form_menu {
+    
+}
+
+
+.log_menu_form_menu ul {
+    display: flex;
+    
+}  
+
+.log_menu_form_menu ul li {
+    display: flex;
+    font-size: 13px;
+    padding: 4px;
+}  
+
+.log_menu_form_menu ul li a {
+    display: flex;
+    font-size: 13px;
+    color: #4f504f;
+} 
+
+#puntoMenu1 {
+    color: #789c48 !important;
+}
+
+.log_menu_form_menu li a:hover {
+    color: #789c48;
+    font-size: 13px;
+}
+
+
+.logo_menu_form input{
+    height: 30px;
+    border: 1px solid ;
+    background-color: #e2e4e2;
+    font-size: 12px;
+    font-weight: 100;
+    color: #4f504f;
+}
+
+.logo_menu_form .botonBuscar {
+    height: 30px;
+    border: 1px solid ;
+    background-color: #e2e4e2;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.menuVerde {
+    margin-top: 15px;
+    height: 40px;
+    background-color:  #789c48;
+}
+
+.menuVerde ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.menuVerde ul li a {
+    color: #e2e4e2;
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+
+.menuVerde ul li a:hover {
+    color: white
+}
+
+
+
+
+
+/*
+#bf1e2e ROJO
+#6d6e72 GRIS
+VERDE #4f504f
+*/

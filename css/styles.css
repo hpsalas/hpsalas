@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/**creo una clase:
+.nombreClase {
+    atributo:valor;
+    atributo:valor;
+}
+**/
+
+/*afecta a todos los sections*/
+section {
+ background-color: burlywood;
+}
+.miSeccion {
+    background-color:cornflowerblue
+}
+
+header h1 {
+    color: green !important  /**/
+}
+
+/* por id */
+#idArbitros {
+    /*background-color: coral; */
+    background-color: rgba(0, 0, 255, 0.5); /**el 4to es la opacidad, entre 0 y 1
+    color: black;
+    font-size: 18;
+    font-weight: 100;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */ /*toma la que tenga de izq a derecha*/
+    font-family: 'Ubuntu', sans-serif;
+    font-style: unset; /*inherit: hereda de la que tenga arriba */ 
+}
+
+/*
+Jerarquías
+0 -> important
+1 -> etiquetas: inline
+2 -> #id
+3 -> clase
+*/

@@ -1,0 +1,53 @@
+section {
+    background-color: beige;
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+}
+
+.circulo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+    position: relative;
+    /*defino el nombre de la animabacion*/
+    animation-name: miAnimacion;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: ease;/*linear;*/
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+/*creo el keyFrame */
+@keyframes miAnimacion {
+0% {
+    background-color: aqua;
+    left: 0px;
+    top: 0px;
+}
+25% {
+    background-color: rgb(0, 255, 72);
+    left: 200px;
+    top: 0px;
+}
+50% {
+    background-color: red;
+    left: 200px;
+    top: 200px;
+ }
+ 75% {
+    background-color:coral;
+    left: 0px;
+    top: 200px;
+ }
+ 100% {
+    background-color: black;
+    left: 0px;
+    top: 0px;
+ }
+}

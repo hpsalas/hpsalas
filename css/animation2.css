@@ -1,0 +1,24 @@
+.cuadrado {
+    height: 300px;
+    width: 300px;
+    border: solid 3px black;
+    border-radius: 23px;
+    background-color: aqua;
+    
+    animation: miAnimacion2;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes miAnimacion2 {
+    from  {
+        background-color: white;
+    }
+    to {
+        background-color: red;
+    }
+}
+
+
+

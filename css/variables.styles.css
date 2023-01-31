@@ -1,0 +1,69 @@
+/*variables*/
+:root {
+    --mi-color-rojo: red;   
+    font-size: 16px;  /*por defecto del browser*/
+}
+
+
+header {
+    font-size: 24px;
+}
+
+
+h1 {
+    /*relativas px|cm   em | rem*/
+    font-size: 3em;  /**24x3=72px   toma el element size del elemento que lo contenga**/
+    color: var(--mi-color-rojo);
+}
+
+h2 {
+    font-size: 3rem;  /**16x3=52px toma root element size**/
+}
+
+/*media query: imprimir la pantalla*/
+@media print {
+
+    header {
+        display: flex;
+        justify-content: center;
+        border: 1px solid red;
+        background-color: aqua;
+    }
+    h1 {
+        color: blue;
+        text-align: center;
+    }
+}
+
+/**pequeño: sm**/
+@media screen and (max-width: 700px){ /**aplica estos estilos sólo de 0 a 700px**/
+    header {
+        display: flex;
+        justify-content: flex-start;
+        border: 1px solid red;
+        background-color: aqua;
+    }
+}
+
+/** medio: sm**/
+@media screen and (min-width: 701px) { /**aplica desde 701px para arriba**/
+    header {
+        display: flex;
+        justify-content: center;
+        border: 1px solid blue;
+        background-color: burlywood;
+    }
+}
+
+/**grande: lg**/
+@media screen and (min-width: 1025px) and (max-width:2048px) { /**aplica desde 701px para arriba**/
+    header {
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid green;
+        background-color: blueviolet;
+    }
+}
+
+/*bootstrap*/
+

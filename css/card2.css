@@ -1,0 +1,76 @@
+.card {
+    width: 200px;
+    height: auto;
+    color: grey;
+    padding: 10px;  
+}
+
+.frameCard {
+    border: 1px solid grey;
+}
+
+#card1 {
+    background-color: black;
+    display: inline-block;
+}
+
+#card2 {
+    background-color: white;
+    display: inline-block;
+}
+
+.separator {
+    background-color: white;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    color: black;
+    border: 2px solid white;
+    top: 30px;
+}
+
+.imageCap {
+    border-radius: 5px 5px 0px 0px;
+    width: auto;
+    height: 200px;
+    background-color: gray;
+}
+
+.capText {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+
+.dataSeccion {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid grey;
+}
+
+p {
+    margin: 8px;
+}
+
+
+
+.title {
+    width: auto;
+    font-weight: bold;
+}
+
+.item {
+    border: 1px solid grey;
+}
+
+.links{
+    margin: 0px;
+    padding: 0px;
+    color: blue;
+}
+
+

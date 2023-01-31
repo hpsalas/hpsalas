@@ -1,0 +1,74 @@
+.section {
+    position: fixed;
+    bottom: 30%;
+    top: 30%;
+    left: 35%;
+    right: 35%;
+    width: 600px;
+    height: 300px;
+    border: solid 0px black;
+}
+.cardFrame {
+    border: solid 3px black;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    
+    position: relative;
+    bottom: 30%;
+    top: 50px;
+    left: 100px;
+}
+
+.titleFrame {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.subTitleFrame {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.subTitle {
+    font-size: 15px;
+    font-weight: normal;
+    color:
+     black;
+}
+
+.avatar {
+    border: solid 3px black;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 0px;
+    left: 370px;
+}
+
+.buttonFrame {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+.button {
+    background-color: coral;
+    border-color: black;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white
+}

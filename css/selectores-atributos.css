@@ -1,0 +1,61 @@
+a {
+    display: block;
+}
+
+[href="http://google.com.ar"] {
+    font-size: 25px;
+    color: blueviolet;
+}
+
+[value="texto"] {
+    color: green;
+    font-size: 35px;
+}
+
+.sec {
+    background-color: aqua;
+}
+
+/*COMIENCE CON*/
+[href^="www2"] {
+    color: grey;
+    font-size: 45px;
+}
+
+/*contenga*/
+[href*="comafi"] {
+    color: yellowgreen;
+    font-size: 25px;
+}
+
+/*termine con*/
+[href$="com"] {
+    color: red;
+    font-size: 15px;
+}
+
+[tdValor="2"]{
+    background-color: brown;
+}
+
+#tb2 [tdValor="2"]{
+    background-color: goldenrod;
+}
+
+img {
+    height: 150px;
+    width: auto;
+}
+
+img[alt="fotoLS"]:hover {
+    border: 2px solid greenyellow;
+    height: 200px;
+    width: auto;
+}
+
+img[alt="fotoPibe"]:hover {
+    border: 2px solid rebeccapurple;
+    height: 200px;
+    width: auto;
+    box-shadow: 10px 20px;
+}

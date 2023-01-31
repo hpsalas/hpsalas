@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px; /*base*/
+}
+
+.marco {
+    display: block;
+    border: solid 2px;
+    border-color: black;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#lineaEncabezado1 {
+    margin-top: 30px;
+    display: block;
+    height: 8px;
+    background-color: darksalmon;
+}
+
+#lineaEncabezado2 {
+    display: block;
+    height: 15px;
+    background-color: red;
+}
+
+#lineaEncabezado3 {
+    display: block;
+    height: 8px;
+    background-color: grey;
+}
+
+.content1 {
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    /*
+    --padding: 20px;
+    -- border: solid 1px;
+    --margin: 30px;
+    */
+}
+
+.tabla {
+    width: 100%;
+}
+
+.celda {
+    background-color: white;
+    padding: 50px;
+    width: 50%;
+}
+
+.celdaDetalle {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.bloqueContent1 {
+    display: inline-block;
+    margin: 30px;
+    border: solid 1px;
+    padding: 20px;
+}
+
+.contacto {
+    width: 300px;
+}
+.marco-foto {
+    width: 250px;
+}
+
+#foto {
+    margin-left: 100px;
+}
+
+#textoNombre {
+    font-size: 35px;
+    font-weight: bold;
+    color: brown;
+    padding-bottom: 35px; 
+}
+
+.textoContacto {
+    font-size: 15px;
+    font-weight: normal;
+    color: blueviolet;
+    padding-bottom: 15px; 
+}
+
+.textoContactoWeb {
+   padding-bottom: 3px; 
+}
+
+.titulo {
+    font-size: 24px;
+    color: brown;
+    font-weight: bold;
+}
+
+.fechas {
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.subTitulo {
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+}
+
+.detalle {
+    font-size: 21px;
+    color: grey;
+    font-weight: normal;
+}
+
+.textoDetalle {
+    font-size: 10px;
+    color: black;
+    font-weight: normal;
+}
+
+.textoPuesto {
+    font-size: 21px;
+    color: orange;
+    font-weight: bold;
+}
+
+.textoAuxiliar {
+    font-size: 17px;
+    color: black;
+    font-weight: lighter;
+}
+
+.circulo {
+    background-color: chocolate;
+    border-radius: 30px;
+    width: 50px ;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
